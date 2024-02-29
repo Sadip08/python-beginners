@@ -16,6 +16,8 @@
 #
 try:
     f = open('test1.txt')
+    if f.name == "test1.txt":
+        raise Exception
     var = bad_var
 except FileNotFoundError as e:
     print(e)

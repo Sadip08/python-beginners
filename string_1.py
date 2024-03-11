@@ -1,10 +1,10 @@
-# course = 'Python for beginners'
+course = 'Python for beginners'
 # print(len(course))
 # course.upper()
 # print(course.upper())
 # print(course.lower())
 # print(course.find('n'))
-# print(course.replace('beginners', 'Absolute Beginners'))
+print(course.replace('beginners',course +" hello!" ))
 # print('python' in course)
 # print(course.title())
 #

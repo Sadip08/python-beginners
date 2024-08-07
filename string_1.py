@@ -5,7 +5,7 @@ course = 'Python for beginners'
 # print(course.lower())
 # print(course.find('n'))
 print(course.replace('beginners',course +" hello!" ))
-# print('python' in course)
+print('python' in course)   #returns true if python found in course
 # print(course.title())
 #
 # # String slicing
@@ -16,7 +16,8 @@ print(course.replace('beginners',course +" hello!" ))
 #
 # # Reversing a string
 # print(course[::-1]) # Reverses The String from beginning to second last elements
-# reverse_course = "".join(reversed(course))
+reverse_course = "".join(reversed(course))
+print(reverse_course)
 #
 # # STRING FORMATTING
 # #Accessing string from a Dictionary
@@ -45,13 +46,13 @@ print(course.replace('beginners',course +" hello!" ))
 # print(sentence3)
 
 # print('Name : {name} and Age: {age}'.format(**person))
-
+#
 # for i in range(1,11):
 #     sentence3 = 'The value is {:02}'.format(i) #displays two digit values
 #     print(sentence3)
-
-# pi = 3.14159265
-# sentence4 = 'pi = {:.3f}'.format(pi) # displays three decimal values
-# print(sentence4)
-
+#
+pi = 3.14159265
+sentence4 = 'pi = {:.3f}'.format(pi) # displays three decimal values
+print(sentence4)
+#
 # print('1 MB  = {:,} bytes'.format(1000**2)) # separates the output using comma separator
